@@ -139,4 +139,15 @@ public class HotelTest {
         assertEquals(0, conference1.countConferenceGuests());
     }
 
+    @Test
+    public void starts_with_zero_bookings(){
+        assertEquals(0, hotel.countBookings());
+    }
+
+    @Test
+    public void can_book_room(){
+        hotel.addRoom(bedroom1);
+        hotel.bookRoom(2, bedroom1, guest1);
+        assertEquals(1, hotel.countBookings());
+    }
 }
