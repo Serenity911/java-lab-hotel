@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb18f907-0e6b-4e67-b3e5-e0ee89c7e5bb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../week_04/day_3/rest_pizza_shop_sinatra/pizza_shop/start/db/pizza_shop.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week_04/day_3/rest_pizza_shop_sinatra/pizza_shop/start/db/pizza_shop.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../week_04/day_3/rest_pizza_shop_sinatra/pizza_shop/start/pizza_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../week_04/day_3/rest_pizza_shop_sinatra/pizza_shop/start/pizza_controller.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,7 +31,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XhisSMlEjzSujxARxA7w4xvdTk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -47,7 +50,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BedroomTest">
+    <configuration name="BedroomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CC_Tower" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BedroomTest.has_type" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CC_Tower" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BedroomTest" />
+      <option name="METHOD_NAME" value="has_type" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GuestTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CC_Tower" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,6 +81,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BedroomTest" />
+        <item itemvalue="JUnit.BedroomTest.has_type" />
         <item itemvalue="JUnit.GuestTest" />
       </list>
     </recent_temporary>
@@ -81,7 +105,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
