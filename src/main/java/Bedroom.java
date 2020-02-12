@@ -21,8 +21,19 @@ public class Bedroom {
         return type;
     }
 
+    public int countGuest(){
+        return this.guests.size();
+    }
+
 
     public boolean isBooked() {
         return this.guests.size() > 0;
     }
+
+    public void addGuest(Guest guest) {
+        if (!isBooked()){
+            this.guests.add(guest);
+        }
+    }
+
 }
