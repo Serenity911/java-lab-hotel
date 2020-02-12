@@ -43,6 +43,12 @@ public class BedroomTest {
     }
 
     @Test
+    public void check_if_guest_is_already_booked_in(){
+        bedroom.addGuest(guest1);
+        assertEquals(true, bedroom.isGuestBooked(guest1));
+    }
+
+    @Test
     public void add_guest_room_is_available(){
         bedroom.addGuest(guest1);
         assertEquals(1, bedroom.countGuest());
@@ -56,6 +62,13 @@ public class BedroomTest {
     }
 
     @Test
+    public void cannot_add_the_same_guest_twice(){
+        bedroom.addGuest(guest1);
+        bedroom.addGuest(guest1);
+        assertEquals(1,bedroom.countGuest());
+    }
+
+    @Test
     public void can_remove_guest(){
         bedroom.addGuest(guest1);
         bedroom.addGuest(guest2);
@@ -63,4 +76,11 @@ public class BedroomTest {
         assertEquals(1, bedroom.countGuest());
     }
 
+    @Test
+    public void cannot_remove_guest_if_not_booked_in(){
+        bedroom.addGuest(guest1);
+        bedroom.removeGuest(guest2);
+        assertEquals(false, bedroom.isGuestBooked(guest2));
+        assertEquals(1, bedroom.countGuest());
+    }
 }
