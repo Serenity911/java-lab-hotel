@@ -45,7 +45,7 @@ public class BedroomTest {
     @Test
     public void add_guest_room_is_available(){
         bedroom.addGuest(guest1);
-        assertEquals(true, bedroom.isBooked());
+        assertEquals(1, bedroom.countGuest());
     }
 
     @Test
@@ -54,4 +54,13 @@ public class BedroomTest {
         bedroom1.addGuest(guest2);
         assertEquals(1, bedroom1.countGuest());
     }
+
+    @Test
+    public void can_remove_guest(){
+        bedroom.addGuest(guest1);
+        bedroom.addGuest(guest2);
+        bedroom.removeGuest(guest1);
+        assertEquals(1, bedroom.countGuest());
+    }
+
 }

@@ -27,7 +27,7 @@ public class Bedroom {
 
 
     public boolean isBooked() {
-        return this.guests.size() > 0;
+        return this.guests.size() == this.capacity;
     }
 
     public void addGuest(Guest guest) {
@@ -36,4 +36,9 @@ public class Bedroom {
         }
     }
 
+    public void removeGuest(Guest guest) {
+        if(isBooked()){
+            this.guests.remove(guest);
+        }
+    }
 }
