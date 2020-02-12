@@ -28,4 +28,9 @@ public class BedroomTest {
         assertEquals("Single", bedroom1.getType());
     }
 
+    @Test
+    public void is_booked_returns_false_because_no_guests(){
+        assertEquals(false, bedroom.isBooked());
+    }
+
 }

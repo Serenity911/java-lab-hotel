@@ -22,4 +22,7 @@ public class Bedroom {
     }
 
 
+    public boolean isBooked() {
+        return this.guests.size() > 0;
+    }
 }
