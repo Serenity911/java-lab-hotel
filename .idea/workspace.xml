@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb18f907-0e6b-4e67-b3e5-e0ee89c7e5bb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HotelTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,41 +62,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.add_a_bedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelTest.can_check_multiple_guest_in_conference" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CC_Tower" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="add_a_bedroom" />
+      <option name="METHOD_NAME" value="can_check_multiple_guest_in_conference" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.cannot_add_a_bedroom_twice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelTest.can_remove_guest_from_bedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CC_Tower" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="cannot_add_a_bedroom_twice" />
+      <option name="METHOD_NAME" value="can_remove_guest_from_bedroom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.check_if_bedroom_already_in_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelTest.can_remove_multiple_guests_from_bedroom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CC_Tower" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="check_if_bedroom_already_in_list" />
+      <option name="METHOD_NAME" value="can_remove_multiple_guests_from_bedroom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HotelTest.check_if_bedroom_not_in_the_list" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotelTest.can_remove_multiple_guests_from_conference_room" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CC_Tower" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="HotelTest" />
-      <option name="METHOD_NAME" value="check_if_bedroom_not_in_the_list" />
+      <option name="METHOD_NAME" value="can_remove_multiple_guests_from_conference_room" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,10 +105,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HotelTest" />
-        <item itemvalue="JUnit.HotelTest.cannot_add_a_bedroom_twice" />
-        <item itemvalue="JUnit.HotelTest.check_if_bedroom_not_in_the_list" />
-        <item itemvalue="JUnit.HotelTest.check_if_bedroom_already_in_list" />
-        <item itemvalue="JUnit.HotelTest.add_a_bedroom" />
+        <item itemvalue="JUnit.HotelTest.can_remove_multiple_guests_from_conference_room" />
+        <item itemvalue="JUnit.HotelTest.can_remove_multiple_guests_from_bedroom" />
+        <item itemvalue="JUnit.HotelTest.can_remove_guest_from_bedroom" />
+        <item itemvalue="JUnit.HotelTest.can_check_multiple_guest_in_conference" />
       </list>
     </recent_temporary>
   </component>

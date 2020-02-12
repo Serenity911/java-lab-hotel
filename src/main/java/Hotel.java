@@ -20,13 +20,51 @@ public class Hotel {
         return this.bedrooms.size();
     }
 
-    public void addBedroom(Bedroom bedroom) {
-        if(!isBedroomAlreadyAdded(bedroom)) {
+    public int countConferenceRoom(){
+        return this.conferenceRooms.size();
+    }
+
+    public void addRoom(Bedroom bedroom) {
+        if(!isRoomAlreadyAdded(bedroom)) {
             this.bedrooms.add(bedroom);
         }
     }
 
-    public boolean isBedroomAlreadyAdded(Bedroom bedroom) {
+    public void addRoom(ConferenceRoom conferenceRoom) {
+        if(!isRoomAlreadyAdded(conferenceRoom)) {
+            this.conferenceRooms.add(conferenceRoom);
+        }
+    }
+
+    public boolean isRoomAlreadyAdded(Bedroom bedroom) {
         return this.bedrooms.contains(bedroom);
+    }
+
+    public boolean isRoomAlreadyAdded(ConferenceRoom conferenceRoom) {
+        return this.conferenceRooms.contains(conferenceRoom);
+    }
+
+    public void checkInGuest(Guest guest, Bedroom bedroom) {
+        if(isRoomAlreadyAdded(bedroom)){
+            bedroom.addGuest(guest);
+        }
+    }
+
+    public void checkInGuest(Guest guest, ConferenceRoom conferenceRoom) {
+        if(isRoomAlreadyAdded(conferenceRoom)){
+            conferenceRoom.addGuest(guest);
+        }
+    }
+
+    public void removeGuest(Guest guest, Bedroom bedroom) {
+        if (isRoomAlreadyAdded(bedroom)){
+            bedroom.removeGuest(guest);
+        }
+    }
+
+    public void removeGuest(Guest guest, ConferenceRoom conferenceRoom) {
+        if (isRoomAlreadyAdded(conferenceRoom)){
+            conferenceRoom.removeGuest(guest);
+        }
     }
 }
